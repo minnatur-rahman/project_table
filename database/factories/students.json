@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "salman khan",
+        "email" : "salman@gmail.com",
+        "age" : 20,
+        "city" : "goa"
+    },
+    {
+        "name" : "shoib Islam",
+        "email" : "shoib@gmail.com",
+        "age" : 30,
+        "city" : "Gaibandha"
+    },
+    {
+        "name" : "Adiyat Rahman",
+        "email" : "adiyat@gmail.com",
+        "age" : 03,
+        "city" : "Palashbari"
+    },
+    {
+        "name" : "salman khan",
+        "email" : "salman@gmail.com",
+        "age" : 20,
+        "city" : "goa"
+    },
+]
