@@ -23,4 +23,41 @@
         "age" : 20,
         "city" : "goa"
     },
+    {
+        "name" : "karim khan",
+        "email" : "karim@gmail.com",
+        "age" : 25,
+        "city" : "vola"
+    },
+    {
+        "name" : "Babu",
+        "email" : "babu@gmail.com",
+        "age" : 32,
+        "city" : "Rangpur"
+    },
+    {
+        "name" : "Shakila",
+        "email" : "sakila@gmail.com",
+        "age" : 23,
+        "city" : "Shakila"
+    },
+    {
+        "name" : "Rony",
+        "email" : "rony@gmail.com",
+        "age" : 42,
+        "city" : "Dhaka"
+    },
+    {
+        "name" : "Shanju",
+        "email" : "shanju@gmail.com",
+        "age" : 42,
+        "city" : "Rajshahi"
+    },
+    {
+        "name" : "Minnatur Rahman",
+        "email" : "minnatur@gmail.com",
+        "age" : 35,
+        "city" : "Baibandha"
+    }
+
 ]
