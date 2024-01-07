@@ -2,9 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\student;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\student;
+use Illuminate\Support\Facades\File;
 
 class StudentSeeder extends Seeder
 {
@@ -13,6 +15,8 @@ class StudentSeeder extends Seeder
      */
     public function run(): void
     {
+           $json = File::get(path:'database/json/students.json');
 
+           $stusents = collect(json_decode($json));
     }
 }
