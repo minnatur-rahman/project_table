@@ -3,61 +3,61 @@
         "name" : "salman khan",
         "email" : "salman@gmail.com",
         "age" : 20,
-        "city" : "goa"
+        "city" : 1
     },
     {
         "name" : "shoib Islam",
         "email" : "shoib@gmail.com",
         "age" : 30,
-        "city" : "Gaibandha"
+        "city" : 2
     },
     {
         "name" : "Adiyat Rahman",
         "email" : "adiyat@gmail.com",
-        "age" : 03,
-        "city" : "Palashbari"
+        "age" : 21,
+        "city" : 3
     },
     {
         "name" : "salman khan",
         "email" : "salman@gmail.com",
         "age" : 20,
-        "city" : "goa"
+        "city" : 4
     },
     {
         "name" : "karim khan",
         "email" : "karim@gmail.com",
         "age" : 25,
-        "city" : "vola"
+        "city" : 2
     },
     {
         "name" : "Babu",
         "email" : "babu@gmail.com",
         "age" : 32,
-        "city" : "Rangpur"
+        "city" : 4
     },
     {
         "name" : "Shakila",
         "email" : "sakila@gmail.com",
         "age" : 23,
-        "city" : "Shakila"
+        "city" : 3
     },
     {
         "name" : "Rony",
         "email" : "rony@gmail.com",
         "age" : 42,
-        "city" : "Dhaka"
+        "city" : 1
     },
     {
         "name" : "Shanju",
         "email" : "shanju@gmail.com",
         "age" : 42,
-        "city" : "Rajshahi"
+        "city" : 4
     },
     {
         "name" : "Minnatur Rahman",
         "email" : "minnatur@gmail.com",
         "age" : 35,
-        "city" : "Baibandha"
+        "city" : 1
     }
 
 ]
