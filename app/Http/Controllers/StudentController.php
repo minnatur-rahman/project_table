@@ -12,7 +12,9 @@ class StudentController extends Controller
                         ->join('cities','students.city','=','cities.id')
                         ->get();
 
-            return $students;
+            // return $students;
+
+            return view('welcome', compact('students'));
 
     }
 
