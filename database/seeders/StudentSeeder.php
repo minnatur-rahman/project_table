@@ -16,7 +16,22 @@ class StudentSeeder extends Seeder
     public function run(): void
     {
            $json = File::get(path:'database/json/students.json');
+           $students = collect(json_decode($json));
 
-           $stusents = collect(json_decode($json));
+           $students->each(function($students){
+
+            student::create([
+
+                'name' => $students->name,
+                'email' => $students->email,
+                'age' => $students->age,
+                'city' => $students->city
+
+
+            ]);
+
+           });
+
+
     }
 }
