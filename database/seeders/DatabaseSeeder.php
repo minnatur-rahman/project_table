@@ -19,12 +19,6 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CitieSeeder::class
         ]);
-    }
-    // public function run():void
-    // {
-    //     $this->call([
-    //         CitieSeeder::class
-    //     ]);
 
-    // }
+    }
 }

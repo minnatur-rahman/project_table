@@ -2,10 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\student;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\citie;
 use Illuminate\Support\Facades\File;
+
 
 class CitieSeeder extends Seeder
 {
@@ -19,7 +21,7 @@ class CitieSeeder extends Seeder
 
         $cities->each(function($cities){
 
-         student::create([
+         citi::create([
 
              'city' => $cities->city
 
