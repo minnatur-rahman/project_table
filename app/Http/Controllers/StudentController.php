@@ -8,13 +8,12 @@ use Illuminate\Support\Facades\DB;
 class StudentController extends Controller
 {
     public function showStudents(){
-        $students = DB::table('students')
-                        ->join('cities','students.city','=','cities.id')
-                        ->get();
+        $students = DB::table('students')->get();
 
-            // return $students;
+            //  dd($students);
+            return $students;
 
-            return view('welcome', compact('students'));
+            // return view('welcome', compact('students'));
 
     }
 
