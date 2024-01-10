@@ -16,9 +16,7 @@ class DatabaseSeeder extends Seeder
             StudentSeeder::class
         ]);
 
-        $this->call([
-            CitieSeeder::class
-        ]);
+
 
     }
 }

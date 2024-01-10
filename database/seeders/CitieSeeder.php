@@ -21,7 +21,7 @@ class CitieSeeder extends Seeder
 
         $cities->each(function($cities){
 
-         citi::create([
+         citie::create([
 
              'city' => $cities->city
 
