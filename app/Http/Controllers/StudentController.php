@@ -11,9 +11,9 @@ class StudentController extends Controller
         $students = DB::table('students')->get();
 
             //  dd($students);
-            return $students;
+            // return $students;
 
-            // return view('welcome', compact('students'));
+            return view('welcome', compact('students'));
 
     }
 
